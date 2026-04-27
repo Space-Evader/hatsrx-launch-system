@@ -35,3 +35,15 @@ The system must NEVER:
 - assume product inventory
 
 It should always ask for product inputs if missing.
+
+## Wix Automation Rule
+
+The system should generate structured product update files before touching Wix.
+
+Preferred output format:
+- JSON for product data
+- HTML for Wix product descriptions
+- tag arrays for categorization
+- product slug or product ID for matching
+
+The system must never update live Wix products unless the update file has been reviewed and approved.
