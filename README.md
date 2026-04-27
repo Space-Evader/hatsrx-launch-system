@@ -1,7 +1,29 @@
 # HatsRx Launch System
 
-Goal: Build HatsRx as a Wix + POD brand with Dr. HatsRx quiz, Rx collections, product templates, Monthly Rx Club, and launch content.
+This repository contains the full system for building HatsRx.
+
+HatsRx is a personalized hat prescription brand where original art becomes wearable style medicine.
 
 Core line: Prescribed for your style.
 
-Rule: Do not publish live site changes, alter payments, shipping, subscriptions, or customer data without human approval.
+---
+
+## Purpose
+
+- Build Wix store
+- Create Dr. HatsRx quiz
+- Organize products using tagging system
+- Launch Monthly Rx Club
+- Create content system
+
+---
+
+## Rule
+
+Do NOT change:
+- payments
+- shipping
+- subscriptions
+- publishing
+
+without approval.
