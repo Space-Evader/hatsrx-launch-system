@@ -4,19 +4,43 @@ Use this format for every existing Wix product that needs updated HatsRx content
 
 ```json
 {
-  "productSlug": "",
-  "productId": "",
-  "finalName": "",
-  "collection": "",
-  "tags": [],
-  "descriptionHtml": ""
+  "match": {
+    "productSlug": "",
+    "productId": ""
+  },
+  "updates": {
+    "finalName": "",
+    "collection": "",
+    "tags": [],
+    "descriptionHtml": ""
+  },
+  "taxonomy": {
+    "mood": [],
+    "vibe": [],
+    "fit": "",
+    "colorEnergy": "",
+    "occasion": [],
+    "rxCollection": "",
+    "subscriptionEligible": "",
+    "bestsellerCandidate": ""
+  },
+  "quizMapping": {
+    "moodTriggers": [],
+    "vibeTriggers": [],
+    "occasionTriggers": []
+  },
+  "review": {
+    "status": "draft",
+    "approvedBy": "",
+    "approvedDate": ""
+  }
 }
 ```
 
 ## Rules
 
-- Use productSlug or productId to match an existing Wix product.
-- Do not create new products unless explicitly approved.
-- Do not invent missing product details.
-- If product information is unknown, mark it as NEEDS INPUT.
+- Use productSlug during planning.
+- Use productId before live automation.
+- Do not include price, payment, shipping, subscription, fulfillment, or publishing fields.
+- Do not create new products.
 - Review JSON before any Wix update is attempted.
