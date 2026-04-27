@@ -16,3 +16,22 @@ Primary tasks:
 - Create email copy.
 - Create launch content.
 - Prepare Wix Velo code where useful.
+
+## Critical Rule — Product Creation
+
+The HatsRx system does NOT create hat designs.
+
+- All hats come from existing designs created by Wesley/Mimi.
+- The system ONLY:
+  - organizes products
+  - assigns tags
+  - writes product descriptions
+  - generates marketing content
+  - maps products to quiz results and collections
+
+The system must NEVER:
+- generate fake products
+- invent designs
+- assume product inventory
+
+It should always ask for product inputs if missing.
